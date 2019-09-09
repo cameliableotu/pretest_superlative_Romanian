@@ -1070,7 +1070,7 @@ PennController("experiment" ,
       newImage ("frogshadowonefrogonstage", "frogshadowonefrogonstage.png")
          .print()
 	       ,
-	       	newAudio("frogsoundsshort", "frogsoundsshort.mp3")
+	       	newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play()
 	       ,
 	       newKey(" ")
@@ -1087,7 +1087,7 @@ PennController ("experiment",
 		newImage ("frogshadowonefrogonstage", "frogshadowonefrogonstage.png")
                .print ()
 		,
-		newAudio("frogsoundsshort", "frogsoundsshort.mp3")
+		newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play()
 		,
 		newText ("<p> Baby Dragon: It is certain that it is the purple frog.</p>")
@@ -1288,7 +1288,7 @@ PennController("experiment" ,
       newImage ("frogshadowtwofrogsonstage", "frogshadowtwofrogsonstage.png")
          .print()
 	       ,
-	       	newAudio("frogsoundsshort", "frogsoundsshort.mp3")
+	       	newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play()
 	       ,
 	       newKey(" ")
