@@ -2313,6 +2313,8 @@ PennController ("experiment",
 		,
 		newText ("<p> Baby Dragon: It is certain that it is the orange cow.</p>")
 		,
+		newText ("<p> How will you reward the baby dragon? </p>")
+		,
 	       newImage("bigapple", "bigapple.png")
         .settings.size(200,200)
         // .print()
@@ -2439,7 +2441,7 @@ PennController("experiment" ,
 	          ,    
 	       newText ("<p> So the shadow is not the yellow cow! And it is not the orange cow! </p>")	
     ,
-      newImage ("cowshadowtwocowsonstage", "cowshadowotwocowsonstage.png")
+      newImage ("cowshadowtwocowsonstage", "cowshadowtwocowsonstage.png")
          .print()
 	       ,
 	       	newAudio("cowsounds2sec", "cowsounds2sec.mp3")
