@@ -110,6 +110,73 @@ newSelector()
 )
 .log( "ID" , getVar("ID"))
 ;
+PennController("preexperiment" ,
+	    defaultText
+	        .print()
+	       ,
+   newText ("<p> Show me the smallest mushroom! </p>")
+	       ,
+	       newImage("smallestmushroom", "smallestmushroom.png")
+ 
+        // .print()
+    ,
+    newImage("middlemushroom", "middlemushroom.png")
+        
+        // .print()
+    ,
+	       newImage("leastsmallmushroom", "leastsmallmushroom.png")
+       
+        // .print()
+    ,
+    newCanvas(600,300)
+        .settings.add( 0 , 0 , getImage("smallestmushroom") )
+        .settings.add( 250 , 0 , getImage("middlemushroom") )
+         .settings.add(500 , 0 , getImage("leastsmallmushroom") )
+        .print()
+	       ,
+	       // newKey("FJK")
+newSelector()
+    .settings.add( getImage("smallestmushroom") , getImage("middlemushroom"), getImage ("leastsmallmushroom"))
+    .settings.keys(          "F"    ,          "J", "K"  )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID"))
+;
+PennController("preexperiment" ,
+	    defaultText
+	        .print()
+	       ,
+   newText ("<p> Show me a big, but not the biggest peach! </p>")
+	       ,
+	       newImage("biggestpeach", "biggestpeach.png")
+ 
+        // .print()
+    ,
+    newImage("bigpeach", "bigpeach.png")
+        
+        // .print()
+    ,
+	       newImage("leastbigpeach", "leastbigpeach.png")
+       
+        // .print()
+    ,
+    newCanvas(600,300)
+        .settings.add( 0 , 0 , getImage("biggestpeach") )
+        .settings.add( 250 , 0 , getImage("bigpeach") )
+         .settings.add(500 , 0 , getImage("leastbigpeach") )
+        .print()
+	       ,
+	       // newKey("FJK")
+newSelector()
+    .settings.add( getImage("biggestpeach") , getImage("bigpeach"), getImage ("leastbigpeach"))
+    .settings.keys(          "F"    ,          "J", "K"  )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID"))
+;
+
 PennController.SendResults( "send" );
 PennController( "final" ,
 	       newText ("<p> Thank you for your participation!. </p>")
