@@ -77,6 +77,39 @@ newSelector()
 )
 .log( "ID" , getVar("ID"))
 ;
+PennController("preexperiment" ,
+	    defaultText
+	        .print()
+	       ,
+   newText ("<p> Show me a tall, but not the tallest lamp! </p>")
+	       ,
+	       newImage("leasttalllamp", "leasttalllamp.png")
+ 
+        // .print()
+    ,
+    newImage("tallestlamp", "tallestlamp.png")
+        
+        // .print()
+    ,
+	       newImage("talllamp", "talllamp.png")
+       
+        // .print()
+    ,
+    newCanvas(600,300)
+        .settings.add( 0 , 0 , getImage("leasttalllamp") )
+        .settings.add( 250 , 0 , getImage("tallestlamp") )
+         .settings.add(500 , 0 , getImage("talllamp") )
+        .print()
+	       ,
+	       // newKey("FJK")
+newSelector()
+    .settings.add( getImage("leasttalllamp") , getImage("tallestlamp"), getImage ("talllamp"))
+    .settings.keys(          "F"    ,          "J", "K"  )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID"))
+;
 PennController.SendResults( "send" );
 PennController( "final" ,
 	       newText ("<p> Thank you for your participation!. </p>")
