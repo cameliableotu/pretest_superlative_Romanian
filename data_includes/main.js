@@ -62,9 +62,6 @@ PennController("pre-experiment" ,
         .settings.size(200,200)
         // .print()
     ,
-    newImage("tallestgiraffe", "tallestgiraffe.png")
-        .settings.size(200,200)
-        // .print()
     newCanvas(450,200)
         .settings.add( 0 , 0 , getImage("tallgiraffe") )
         .settings.add( 250 , 0 , getImage("tallestgiraffe") )
@@ -101,7 +98,7 @@ PennController("pre-experiment" ,
 	       ,
 	       // newKey("FJ")
 newSelector()
-    .settings.add( getImage("tallgiraffe") , getImage("tallesgiraffe") )
+    .settings.add( getImage("tallestlamp") , getImage("talllamp) )
     .settings.keys(          "F"    ,          "J"   )
     .settings.log()
     .wait()
@@ -109,35 +106,7 @@ newSelector()
 .log( "ID" , getVar("ID"))
 ;
 
-PennController("pre-experiment" ,
-	    defaultText
-	        .print()
-	       ,
-   newText ("<p> Here are some small mushrooms! Show me the smallest mushroom! </p>")
-	       ,
-	       newImage("tallestlamp", "tallestlamp.png")
-        .settings.size(200,200)
-        // .print()
-    ,
-    newImage("talllamp", "talllamp.png")
-        .settings.size(200,200)
-        // .print()
-    ,
-    newCanvas(450,200)
-        .settings.add( 0 , 0 , getImage("tallestlamp) )
-        .settings.add( 250 , 0 , getImage("talllamp") )
-        .print()
-	       ,
-					
-	       // newKey("FJ")
-newSelector()
-    .settings.add( getImage("tallgiraffe") , getImage("tallesgiraffe") )
-    .settings.keys(          "F"    ,          "J"   )
-    .settings.log()
-    .wait()
-)
-.log( "ID" , getVar("ID"))
-;
+
 PennController.SendResults( "send" );
 PennController( "final" ,
 	       newText ("<p> Thank you for your participation!. </p>")
