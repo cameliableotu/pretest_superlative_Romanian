@@ -68,10 +68,10 @@ PennController("preexperiment" ,
          .settings.add(500 , 0 , getImage("leasttallgiraffe") )
         .print()
 	       ,
-	       // newKey("FJ")
+	       // newKey("FJK")
 newSelector()
     .settings.add( getImage("tallgiraffe") , getImage("tallesgiraffe"), getImage ("leasttallgiraffe"))
-    .settings.keys(          "F"    ,          "J"   )
+    .settings.keys(          "F"    ,          "J", "K"  )
     .settings.log()
     .wait()
 )
