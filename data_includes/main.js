@@ -51,15 +51,15 @@ PennController("preexperiment" ,
    newText ("<p> Show me the tallest giraffe! </p>")
 	       ,
 	       newImage("tallgiraffe", "tallgiraffe.png")
-        .settings.size(200,200)
+ 
         // .print()
     ,
     newImage("tallestgiraffe", "tallestgiraffe.png")
-        .settings.size(200,200)
+        
         // .print()
     ,
 	       newImage("leasttallgiraffe", "leasttallgiraffe.png")
-        .settings.size(200,200)
+       
         // .print()
     ,
     newCanvas(450,200)
