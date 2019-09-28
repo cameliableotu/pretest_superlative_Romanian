@@ -41,7 +41,7 @@ PennController( "welcome" ,
 .log( "ID" , getVar("ID") );
 
 ;
-PennController("pre-experiment" ,
+PennController("preexperiment" ,
 	    defaultText
 	        .print()
 	       ,
