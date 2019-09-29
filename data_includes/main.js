@@ -176,6 +176,39 @@ newSelector()
 )
 .log( "ID" , getVar("ID"))
 ;
+PennController("preexperiment" ,
+	    defaultText
+	        .print()
+	       ,
+   newText ("<p> Show me the biggest cupcake! </p>")
+	       ,
+	       newImage("bigcupcake", "bigcupcake.png")
+ 
+        // .print()
+    ,
+    newImage("leastbigcupcake", "leastbigcupcake.png")
+        
+        // .print()
+    ,
+	       newImage("biggestcupcake", "biggestcupcake.png")
+       
+        // .print()
+    ,
+    newCanvas(600,300)
+        .settings.add( 0 , 0 , getImage("bigcupcake") )
+        .settings.add( 250 , 0 , getImage("leastbigcupcake") )
+         .settings.add(500 , 0 , getImage("biggestcupcake") )
+        .print()
+	       ,
+	       // newKey("FJK")
+newSelector()
+    .settings.add( getImage("bigcupcake") , getImage("leastbigcupcake"), getImage ("biggestcupcake"))
+    .settings.keys(          "F"    ,          "J", "K"  )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID"))
+;
 
 PennController.SendResults( "send" );
 PennController( "final" ,
