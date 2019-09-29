@@ -263,10 +263,10 @@ PennController("preexperiment" ,
        
         // .print()
     ,
-    newCanvas(600,300)
+    newCanvas(700,300)
         .settings.add( 0 , 0 , getImage("underinformativebear") )
         .settings.add( 250 , 0 , getImage("optimalbear") )
-         .settings.add(500 , 0 , getImage("wrongbear") )
+         .settings.add(600 , 0 , getImage("wrongbear") )
         .print()
 	       ,
 	       // newKey("FJK")
