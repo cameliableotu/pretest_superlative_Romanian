@@ -405,7 +405,7 @@ newImage("underinformativegirl", "underinformativegirl.png")
 	       ,
 	       // newKey("FJ)
 newSelector()
-    .settings.add( getImage("underinformativegirl") , getImage(“optimalgirl"))
+    .settings.add( getImage("underinformativegirl") , getImage("optimalgirl"))
     .settings.keys(          "F"    ,          "J" )
     .settings.log()
     .wait()
@@ -418,6 +418,7 @@ PennController("preexperiment" ,
 ,
 	       newImage ("girl", "girl.png")
 //.print()
+	       ,
  newText ("<p> Show me which sentence is not the best description of the picture! </p>")
 	    ,     newImage("optimalgirl", "optimalgirl.png")
         // .print
