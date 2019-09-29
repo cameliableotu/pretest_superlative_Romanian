@@ -248,7 +248,7 @@ PennController("preexperiment" ,
 	       newImage ("brownbear", "brownbear.png")
 .print()
 	       ,
-   newText ("<p> Show me which sentence is the best description of the picture! </p>")
+   newText ("<p> Show me which sentence is the best description of the picture! Just click on it. </p>")
 	      
 	       ,
 	       newImage("underinformativebear", "underinformativebear.png")
