@@ -120,7 +120,7 @@ PennController("preexperiment" ,
  
         // .print()
     ,
-    newImage("middlemushroom", "middlemushroom.png")
+    newImage("smallmushroom", "smallmushroom.png")
         
         // .print()
     ,
@@ -130,13 +130,46 @@ PennController("preexperiment" ,
     ,
     newCanvas(600,300)
         .settings.add( 0 , 0 , getImage("smallestmushroom") )
-        .settings.add( 250 , 0 , getImage("middlemushroom") )
+        .settings.add( 250 , 0 , getImage("smallmushroom") )
          .settings.add(500 , 0 , getImage("leastsmallmushroom") )
         .print()
 	       ,
 	       // newKey("FJK")
 newSelector()
-    .settings.add( getImage("smallestmushroom") , getImage("middlemushroom"), getImage ("leastsmallmushroom"))
+    .settings.add( getImage("smallestmushroom") , getImage("smallmushroom"), getImage ("leastsmallmushroom"))
+    .settings.keys(          "F"    ,          "J", "K"  )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID"))
+;
+PennController("preexperiment" ,
+	    defaultText
+	        .print()
+	       ,
+   newText ("<p> Show me a small, but not the smallest rose! </p>")
+	       ,
+	       newImage("leastsmallrose", "leastsmallrose.png")
+ 
+        // .print()
+    ,
+    newImage("smallrose", "smallrose.png")
+        
+        // .print()
+    ,
+	       newImage("smallestrose", "smallestrose.png")
+       
+        // .print()
+    ,
+    newCanvas(600,300)
+        .settings.add( 0 , 0 , getImage("leastsmallrose") )
+        .settings.add( 250 , 0 , getImage("smallrose") )
+         .settings.add(500 , 0 , getImage("smallestrose") )
+        .print()
+	       ,
+	       // newKey("FJK")
+newSelector()
+    .settings.add( getImage("leastsmallrose") , getImage("smallrose"), getImage ("smallestrose"))
     .settings.keys(          "F"    ,          "J", "K"  )
     .settings.log()
     .wait()
