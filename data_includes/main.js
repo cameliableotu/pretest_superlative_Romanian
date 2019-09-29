@@ -242,6 +242,204 @@ newSelector()
 )
 .log( "ID" , getVar("ID"))
 ;
+PennController("preexperiment" ,
+	    defaultText
+	        .print()
+	       newImage ("brownbear", "brownbear.png")
+//.print()
+	       ,
+   newText ("<p> Show me which sentence is the best description of the picture! </p>")
+	      
+	       ,
+	       newImage("underinformativebear", "underinformativebear.png")
+ 
+        // .print()
+    ,
+    newImage("optimalbear", "optimalbear.png")
+        
+        // .print()
+    ,
+	       newImage("wrongbear", "wrongbear.png")
+       
+        // .print()
+    ,
+    newCanvas(600,300)
+        .settings.add( 0 , 0 , getImage("underinformativebear") )
+        .settings.add( 250 , 0 , getImage("optimalbear") )
+         .settings.add(500 , 0 , getImage("wrongbear") )
+        .print()
+	       ,
+	       // newKey("FJK")
+newSelector()
+    .settings.add( getImage("underinformativebear") , getImage("optimalbear"), getImage ("wrongbear"))
+    .settings.keys(          "F"    ,          "J", "K"  )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID"))
+;
+PennController("preexperiment" ,
+	    defaultText
+	        .print()
+	       ,
+	       newImage ("brownbear", "brownbear.png")
+//.print()
+	       ,
+   newText ("<p> Show me which sentence is not the best description of the picture! </p>")
+,
+	      newImage("optimalbear", "optimalbear.png")
+        // .print()
+	       ,
+	       newImage("underinformativebear", "underinformativebear.png")
+ 
+        // .print()
+    ,
+   
+    newCanvas(600,300)
+        .settings.add( 0 , 0 , getImage("optimalbear") )
+        .settings.add( 250 , 0 , getImage("underinformativebear") )
+        .print()
+	       ,
+	       // newKey("FJ)
+newSelector()
+    .settings.add( getImage("optimalbear") , getImage("underinformativebear"))
+    .settings.keys(          "F"    ,          "J" )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID"))
+;
+PennController("preexperiment" ,
+	    defaultText
+	        .print()
+	       ,
+	       newImage ("brownbear", "brownbear.png")
+//.print()
+	       ,
+ newText ("<p> Show me which sentence is not the best description of the picture! </p>")
+	    
+	       ,
+	       newImage("wrongbear", "wrongbear.png")
+ 
+        // .print()
+    ,
+   newImage("optimalbear", "optimalbear.png")  
+        // .print()
+,
+    newCanvas(600,300)
+        .settings.add( 0 , 0 , getImage("wrongbear") )
+        .settings.add( 250 , 0 , getImage("optimalbear") )
+        .print()
+	       ,
+	       // newKey("FJ)
+newSelector()
+    .settings.add( getImage("wrongbear") , getImage("optimalbear"))
+    .settings.keys(          "F"    ,          "J" )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID"))
+;
+PennController("preexperiment" ,
+	    defaultText
+	        .print()
+	       ,
+	       newImage ("girl", "girl.png")
+//.print()
+	       ,
+   newText ("<p> Show me which sentence is the best description of the picture! </p>")
+	       ,
+	newImage("wronggirl", "wronggirl.png")
+       
+        // .print()
+    ,
+ 
+	       newImage("underinformativegirl", "underinformativegirl.png")
+ 
+        // .print()
+    ,
+    newImage("optimalgirl", "optimalgirl.png")
+        
+        // .print()
+    ,
+
+    newCanvas(600,300)
+        .settings.add( 0 , 0 , getImage("wronggirl") )
+        .settings.add( 250 , 0 , getImage("underinformativegirl") )
+         .settings.add(500 , 0 , getImage("optimalgirl") )
+        .print()
+	       ,
+	       // newKey("FJK")
+newSelector()
+    .settings.add( getImage ("wronggirl"), getImage("underinformativegirl") , getImage("optimalgirl"), getImage ("wronggirl")
+    .settings.keys(          "F"    ,          "J", "K"  )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID"))
+;
+PennController("preexperiment" ,
+	    defaultText
+	        .print()
+,
+	       newImage ("girl", "girl.png")
+//.print()
+	       ,
+   newText ("<p> Show me which sentence is not the best description of the picture! </p>")
+,
+newImage("underinformativegirl", "underinformativegirl.png")
+ 
+        // .print()
+,
+
+	      newImage("optimalgirl", "optimalgirl.png")
+        
+        // .print()
+	       ,
+	 
+   
+    newCanvas(600,300)
+        .settings.add( 0 , 0 , getImage("underinformativegirl") )
+        .settings.add( 250 , 0 , getImage("optimalgirl") )
+        .print()
+	       ,
+	       // newKey("FJ)
+newSelector()
+    .settings.add( getImage("underinformativegirl") , getImage(“optimalgirl"))
+    .settings.keys(          "F"    ,          "J" )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID"))
+;
+PennController("preexperiment" ,
+	    defaultText
+	        .print()
+,
+	       newImage ("girl", "girl.png")
+//.print()
+ newText ("<p> Show me which sentence is not the best description of the picture! </p>")
+	    ,     newImage("optimalgirl", "optimalgirl.png")
+        // .print
+	       ,
+	       newImage("wronggirl", "wronggirl.png")
+ 
+        // .print()
+    
+,
+    newCanvas(600,300)
+        .settings.add( 0 , 0 , getImage(“optimalgirl") )
+        .settings.add( 250 , 0 , getImage(“wronggirl") )
+        .print()
+	       ,
+	       // newKey("FJ)
+newSelector()
+    .settings.add( getImage("optimalgirl") , getImage("wronggirl"))
+    .settings.keys(          "F"    ,          "J" )
+    .settings.log()
+    .wait()
+)
+.log( "ID" , getVar("ID"))
 
 PennController.SendResults( "send" );
 PennController( "final" ,
