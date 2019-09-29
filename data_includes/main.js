@@ -246,7 +246,7 @@ PennController("preexperiment" ,
 	        .print()
 	       ,
 	       newImage ("brownbear", "brownbear.png")
-//.print()
+.print()
 	       ,
    newText ("<p> Show me which sentence is the best description of the picture! </p>")
 	      
@@ -283,7 +283,7 @@ PennController("preexperiment" ,
 	        .print()
 	       ,
 	       newImage ("brownbear", "brownbear.png")
-//.print()
+.print()
 	       ,
    newText ("<p> Show me which sentence is not the best description of the picture! </p>")
 ,
@@ -297,7 +297,7 @@ PennController("preexperiment" ,
    
     newCanvas(600,300)
         .settings.add( 0 , 0 , getImage("optimalbear") )
-        .settings.add( 250 , 0 , getImage("underinformativebear") )
+        .settings.add( 350 , 0 , getImage("underinformativebear") )
         .print()
 	       ,
 	       // newKey("FJ)
@@ -314,7 +314,7 @@ PennController("preexperiment" ,
 	        .print()
 	       ,
 	       newImage ("brownbear", "brownbear.png")
-//.print()
+.print()
 	       ,
  newText ("<p> Show me which sentence is not the best description of the picture! </p>")
 	    
@@ -345,7 +345,7 @@ PennController("preexperiment" ,
 	        .print()
 	       ,
 	       newImage ("girl", "girl.png")
-//.print()
+.print()
 	       ,
    newText ("<p> Show me which sentence is the best description of the picture! </p>")
 	       ,
@@ -383,7 +383,7 @@ PennController("preexperiment" ,
 	        .print()
 ,
 	       newImage ("girl", "girl.png")
-//.print()
+	       .print()
 	       ,
    newText ("<p> Show me which sentence is not the best description of the picture! </p>")
 ,
@@ -417,7 +417,7 @@ PennController("preexperiment" ,
 	        .print()
 ,
 	       newImage ("girl", "girl.png")
-//.print()
+.print()
 	       ,
  newText ("<p> Show me which sentence is not the best description of the picture! </p>")
 	    ,     newImage("optimalgirl", "optimalgirl.png")
