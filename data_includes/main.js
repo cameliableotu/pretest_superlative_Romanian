@@ -40,7 +40,6 @@ PennController( "welcome" ,
 	      
 .log( "ID" , getVar("ID") );
 
-;
 PennController("preexperiment" ,
 	    defaultText
 	        .print()
@@ -245,6 +244,7 @@ newSelector()
 PennController("preexperiment" ,
 	    defaultText
 	        .print()
+	       ,
 	       newImage ("brownbear", "brownbear.png")
 //.print()
 	       ,
@@ -371,7 +371,7 @@ PennController("preexperiment" ,
 	       ,
 	       // newKey("FJK")
 newSelector()
-    .settings.add( getImage ("wronggirl"), getImage("underinformativegirl") , getImage("optimalgirl"), getImage ("wronggirl")
+    .settings.add( getImage ("wronggirl"), getImage("underinformativegirl") , getImage("optimalgirl"), getImage ("wronggirl"))
     .settings.keys(          "F"    ,          "J", "K"  )
     .settings.log()
     .wait()
