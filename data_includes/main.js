@@ -429,8 +429,8 @@ PennController("preexperiment" ,
     
 ,
     newCanvas(600,300)
-        .settings.add( 0 , 0 , getImage(“optimalgirl") )
-        .settings.add( 250 , 0 , getImage(“wronggirl") )
+        .settings.add( 0 , 0 , getImage("optimalgirl") )
+        .settings.add( 250 , 0 , getImage("wronggirl") )
         .print()
 	       ,
 	       // newKey("FJ)
