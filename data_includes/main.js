@@ -251,15 +251,15 @@ PennController("preexperiment" ,
    newText ("<p> Arată-mi care propoziţie este cea mai bună descriere a imaginii! Pur şi simplu fă click pe ea. </p>")
 	      
 	       ,
-	       newImage("underinformativebear", "underinformativebear.png")
+	       newImage("underinformativebear", "underinformativebear.jpg")
  
         // .print()
     ,
-    newImage("optimalbear", "optimalbear.png")
+    newImage("optimalbear", "optimalbear.jpg")
         
         // .print()
     ,
-	       newImage("wrongbear", "wrongbear.png")
+	       newImage("wrongbear", "wrongbear.jpg")
        
         // .print()
     ,
@@ -287,10 +287,10 @@ PennController("preexperiment" ,
 	       ,
    newText ("<p>  Arată-mi care propoziţie NU este cea mai bună descriere a imaginii! </p>")
 ,
-	      newImage("optimalbear", "optimalbear.png")
+	      newImage("optimalbear", "optimalbear.jpg")
         // .print()
 	       ,
-	       newImage("underinformativebear", "underinformativebear.png")
+	       newImage("underinformativebear", "underinformativebear.jpg")
  
         // .print()
     ,
@@ -313,17 +313,17 @@ PennController("preexperiment" ,
 	    defaultText
 	        .print()
 	       ,
-	       newImage ("brownbear", "brownbear.png")
+	       newImage ("brownbear", "brownbear.jpg")
 .print()
 	       ,
  newText ("<p>  Arată-mi care propoziţie NU este cea mai bună descriere a imaginii!! </p>")
 	    
 	       ,
-	       newImage("wrongbear", "wrongbear.png")
+	       newImage("wrongbear", "wrongbear.jpg")
  
         // .print()
     ,
-   newImage("optimalbear", "optimalbear.png")  
+   newImage("optimalbear", "optimalbear.jpg")  
         // .print()
 ,
     newCanvas(600,300)
@@ -349,12 +349,12 @@ PennController("preexperiment" ,
 	       ,
    newText ("<p>  Arată-mi care propoziţie este cea mai bună descriere a imaginii!! </p>")
 	       ,
-	newImage("wronggirl", "wronggirl.png")
+	newImage("wronggirl", "wronggirl.jpg")
        
         // .print()
     ,
  
-	       newImage("underinformativegirl", "underinformativegirl.png")
+	       newImage("underinformativegirl", "underinformativegirl.jpg")
  
         // .print()
     ,
@@ -387,12 +387,12 @@ PennController("preexperiment" ,
 	       ,
    newText ("<p>  Arată-mi care propoziţie NU este cea mai bună descriere a imaginii! </p>")
 ,
-newImage("underinformativegirl", "underinformativegirl.png")
+newImage("underinformativegirl", "underinformativegirl.jpg")
  
         // .print()
 ,
 
-	      newImage("optimalgirl", "optimalgirl.png")
+	      newImage("optimalgirl", "optimalgirl.jpg")
         
         // .print()
 	       ,
@@ -420,10 +420,10 @@ PennController("preexperiment" ,
 .print()
 	       ,
  newText ("<p> Arată-mi care propoziţie NU este cea mai bună descriere a imaginii! </p>")
-	    ,     newImage("optimalgirl", "optimalgirl.png")
+	    ,     newImage("optimalgirl", "optimalgirl.jpg")
         // .print
 	       ,
-	       newImage("wronggirl", "wronggirl.png")
+	       newImage("wronggirl", "wronggirl.jpg")
  
         // .print()
     
