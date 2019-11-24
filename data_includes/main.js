@@ -6,27 +6,27 @@ PennController( "welcome" ,
     defaultText
         .print()
     ,
-    newText("<p> Hey everyone! </p>")
+    newText("<p> Salutare tuturor! </p>")
     ,
-    newText("<p> The wizard wants to ask you some questions to figure out how you understand certain sentences about various and animals. </p>" ),
-    newText("<p>Please enter your ID, answer some questions and then click the button below to start the pretest.</p>")
+    newText("<p> Vrăjitorul vrea să îţi pună nişte întrebări pentru a vedea cum înţelegi anumite propoziţii despre diferite obiecte şi animale. </p>" ),
+    newText("<p> Te rog introdu numele tău, răspunde la nişte întrebări, iar apoi fă click pe butonul de mai jos pentru a începe.</p>")
     ,
     newTextInput("ID")
         .print()
     ,
-     newText("<p> What is your age? </p>"),
+     newText("<p> Câţi ani ai? </p>"),
     newTextInput("Age")
         .print()
 	       ,
-	  newText("<p> What is your gender?</p>"),
+	  newText("<p> Ce sex ai?</p>"),
 	       newTextInput ("Gender")
         .print()
 	       , 
-	        newText("<p> What is your profession?</p>"),
+	        newText("<p> Cu ce te ocupi?</p>"),
 	    newTextInput ("Profession")  
         .print()
 	       ,
-	       newText ("<p> To move to the next page, always use the space bar. </p>")
+	       newText ("<p> Pentru a avansa, foloseşte bara de spaţiu (space bar). </p>")
 	       .print()
 	       ,
 	       
@@ -44,10 +44,10 @@ PennController("preexperiment" ,
 	    defaultText
 	        .print()
 	       ,
-  newText ("<p> You simply have to click on the item you think is the answer to the question. </p>")
+  newText ("<p> Pur şi simplu trebuie să faci click pe răspunsul pe care îl consideri potrivit. </p>")
 	       ,
-   newText ("<p> Let's start! </p>"),
-   newText ("<p> Show me the tallest giraffe! </p>")
+   newText ("<p> Hai să începem! </p>"),
+   newText ("<p> Arată-mi girafa cea mai înaltă! </p>")
 	       ,
 	       newImage("tallgiraffe", "tallgiraffe.png")
  
@@ -80,7 +80,7 @@ PennController("preexperiment" ,
 	    defaultText
 	        .print()
 	       ,
-   newText ("<p> Show me a tall, but not the tallest lamp! </p>")
+   newText ("<p> Arată-mi o lampă înaltă, dar nu cea mai înaltă! </p>")
 	       ,
 	       newImage("leasttalllamp", "leasttalllamp.png")
  
@@ -113,7 +113,7 @@ PennController("preexperiment" ,
 	    defaultText
 	        .print()
 	       ,
-   newText ("<p> Show me the smallest mushroom! </p>")
+   newText ("<p> Arată-mi cea mai mică ciupercă! </p>")
 	       ,
 	       newImage("smallestmushroom", "smallestmushroom.png")
  
@@ -146,7 +146,7 @@ PennController("preexperiment" ,
 	    defaultText
 	        .print()
 	       ,
-   newText ("<p> Show me a small, but not the smallest rose! </p>")
+   newText ("<p> Arată-mi un trandafir mic, dar nu cel mai mic! </p>")
 	       ,
 	       newImage("leastsmallrose", "leastsmallrose.png")
  
@@ -179,7 +179,7 @@ PennController("preexperiment" ,
 	    defaultText
 	        .print()
 	       ,
-   newText ("<p> Show me a big, but not the biggest peach! </p>")
+   newText ("<p> Arată-mi o piersică mare, dar nu cea mai mare! </p>")
 	       ,
 	       newImage("biggestpeach", "biggestpeach.png")
  
@@ -212,7 +212,7 @@ PennController("preexperiment" ,
 	    defaultText
 	        .print()
 	       ,
-   newText ("<p> Show me the biggest cupcake! </p>")
+   newText ("<p> Arată-mi cea mai mare prăjitură! </p>")
 	       ,
 	       newImage("bigcupcake", "bigcupcake.png")
  
@@ -248,7 +248,7 @@ PennController("preexperiment" ,
 	       newImage ("brownbear", "brownbear.png")
 .print()
 	       ,
-   newText ("<p> Show me which sentence is the best description of the picture! Just click on it. </p>")
+   newText ("<p> Arată-mi care propoziţie este cea mai bună descriere a imaginii! Pur şi simplu fă click pe ea. </p>")
 	      
 	       ,
 	       newImage("underinformativebear", "underinformativebear.png")
@@ -285,7 +285,7 @@ PennController("preexperiment" ,
 	       newImage ("brownbear", "brownbear.png")
 .print()
 	       ,
-   newText ("<p> Show me which sentence is not the best description of the picture! </p>")
+   newText ("<p>  Arată-mi care propoziţie NU este cea mai bună descriere a imaginii! </p>")
 ,
 	      newImage("optimalbear", "optimalbear.png")
         // .print()
@@ -316,7 +316,7 @@ PennController("preexperiment" ,
 	       newImage ("brownbear", "brownbear.png")
 .print()
 	       ,
- newText ("<p> Show me which sentence is not the best description of the picture! </p>")
+ newText ("<p>  Arată-mi care propoziţie NU este cea mai bună descriere a imaginii!! </p>")
 	    
 	       ,
 	       newImage("wrongbear", "wrongbear.png")
@@ -347,7 +347,7 @@ PennController("preexperiment" ,
 	       newImage ("girl", "girl.png")
 .print()
 	       ,
-   newText ("<p> Show me which sentence is the best description of the picture! </p>")
+   newText ("<p>  Arată-mi care propoziţie este cea mai bună descriere a imaginii!! </p>")
 	       ,
 	newImage("wronggirl", "wronggirl.png")
        
@@ -385,7 +385,7 @@ PennController("preexperiment" ,
 	       newImage ("girl", "girl.png")
 	       .print()
 	       ,
-   newText ("<p> Show me which sentence is not the best description of the picture! </p>")
+   newText ("<p>  Arată-mi care propoziţie NU este cea mai bună descriere a imaginii! </p>")
 ,
 newImage("underinformativegirl", "underinformativegirl.png")
  
@@ -419,7 +419,7 @@ PennController("preexperiment" ,
 	       newImage ("girl", "girl.png")
 .print()
 	       ,
- newText ("<p> Show me which sentence is not the best description of the picture! </p>")
+ newText ("<p> Arată-mi care propoziţie NU este cea mai bună descriere a imaginii! </p>")
 	    ,     newImage("optimalgirl", "optimalgirl.png")
         // .print
 	       ,
@@ -444,10 +444,10 @@ newSelector()
 
 PennController.SendResults( "send" );
 PennController( "final" ,
-	       newText ("<p> Thank you for your participation!. </p>")
+	       newText ("<p> Mulţumesc pentru participare! </p>")
 	       .print()
 	       ,
-	 newText("<p> The wizard thanks you too! Bubbye! </p>")
+	 newText("<p> Vrăjitorul îţi mulţumeşte şi el! Pa-pa! </p>")
         .print(),
 	      
     newButton("void")
