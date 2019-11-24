@@ -400,7 +400,7 @@ newImage("underinformativegirl", "underinformativegirl.jpg")
    
     newCanvas(600,300)
         .settings.add( 0 , 0 , getImage("underinformativegirl") )
-        .settings.add( 3000 , 0 , getImage("optimalgirl") )
+        .settings.add( 300 , 0 , getImage("optimalgirl") )
         .print()
 	       ,
 	       // newKey("FJ)
@@ -430,7 +430,7 @@ PennController("preexperiment" ,
 ,
     newCanvas(600,300)
         .settings.add( 0 , 0 , getImage("optimalgirl") )
-        .settings.add( 300 , 0 , getImage("wronggirl") )
+        .settings.add( 250 , 0 , getImage("wronggirl") )
         .print()
 	       ,
 	       // newKey("FJ)
