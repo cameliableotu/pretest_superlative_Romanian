@@ -259,19 +259,19 @@ PennController("preexperiment" ,
         
         // .print()
     ,
-	       newImage("wrongbear", "wrongbear.jpg")
+	       newImage("wrongbear1", "wrongbear1.jpg")
        
         // .print()
     ,
     newCanvas(700,300)
         .settings.add( 0 , 0 , getImage("underinformativebear") )
         .settings.add( 300 , 0 , getImage("optimalbear") )
-         .settings.add(650 , 0 , getImage("wrongbear") )
+         .settings.add(650 , 0 , getImage("wrongbear1") )
         .print()
 	       ,
 	       // newKey("FJK")
 newSelector()
-    .settings.add( getImage("underinformativebear") , getImage("optimalbear"), getImage ("wrongbear"))
+    .settings.add( getImage("underinformativebear") , getImage("optimalbear"), getImage ("wrongbear1"))
     .settings.keys(          "F"    ,          "J", "K"  )
     .settings.log()
     .wait()
@@ -319,7 +319,7 @@ PennController("preexperiment" ,
  newText ("<p>  Arată-mi care propoziţie NU este cea mai bună descriere a imaginii!! </p>")
 	    
 	       ,
-	       newImage("wrongbear", "wrongbear.jpg")
+	       newImage("wrongbear1", "wrongbear1.jpg")
  
         // .print()
     ,
@@ -327,13 +327,13 @@ PennController("preexperiment" ,
         // .print()
 ,
     newCanvas(600,300)
-        .settings.add( 0 , 0 , getImage("wrongbear") )
+        .settings.add( 0 , 0 , getImage("wrongbear1") )
         .settings.add( 300 , 0 , getImage("optimalbear") )
         .print()
 	       ,
 	       // newKey("FJ)
 newSelector()
-    .settings.add( getImage("wrongbear") , getImage("optimalbear"))
+    .settings.add( getImage("wrongbear1") , getImage("optimalbear"))
     .settings.keys(          "F"    ,          "J" )
     .settings.log()
     .wait()
